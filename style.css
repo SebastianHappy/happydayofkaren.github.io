@@ -1,0 +1,23 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+#countdown {
+    font-size: 2em;
+}
+
+#message {
+    font-size: 2.5em;
+    color: #ff4081;
+}

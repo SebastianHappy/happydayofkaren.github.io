@@ -3,7 +3,7 @@ function updateCountdown() {
     const currentYear = now.getFullYear();
     const targetDate = new Date(`May 18, ${currentYear} 00:00:00`);
     
-    if (now.getMonth() === 4 && now.getDate() === 20) {
+    if (now.getMonth() === 4 && now.getDate() === 18) {
         document.getElementById('message').textContent = '¡Feliz Cumpleaños Karen!!!';
         document.getElementById('countdown').textContent = '';
         return; 
